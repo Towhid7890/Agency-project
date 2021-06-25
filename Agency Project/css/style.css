@@ -1,0 +1,149 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: sans-serif;
+  
+}
+#nav-bar{
+    position: sticky;
+    z-index: 10%;
+    top: 0%;
+}
+.navbar{
+    background-color: #a517ba;
+}
+.fa-bars{
+    color:white;
+    font-size: 30px !important;
+}
+.title1{
+    margin-top: 100px;
+}
+.banner{
+    background-image: linear-gradient(to right, #a517ba, #5f1782 );
+    color: #fff;
+    padding-top: 5%;
+}
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
+.banner a{
+    color: #fff;
+    text-decoration: none;
+}
+.bottom-img{
+    width: 100%;
+  
+}
+.img1{
+width: 100px;
+margin-bottom: 20px;
+}
+.section{
+    margin-top: 80px;
+}
+
+
+.title::before{
+    content:'' ;
+    background: #a517ba;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(63px);
+
+}
+.title::after{
+    content:'' ;
+    background: #a517ba;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-bottom: 40px;
+    margin-right: auto;
+    display: block;
+    transform: translateY(8px);
+
+}
+.btn-primary{
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    background-image: linear-gradient(to right, #a517ba, #5f1782 );
+    border-radius: solid;
+    margin-top: 20px;
+
+
+}
+#chose ul li{
+    margin: 10px 0px;
+    
+}
+#chose ul{
+    margin-left: 30px;
+}
+.testemonials{
+    border-left: 4px solid #a517ba;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#testemonials{
+    margin: 100px 0;
+}
+.testemonials img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin: 0 10px;
+}
+.user{
+    display: inline-block;
+    font-size: 12px;
+}
+.social-icon{
+    margin-bottom: 100px;
+}
+.social-icon img{
+    width: 60px;
+    transition: 0.6s;
+}
+.social-icon a:hover img{
+    transform: translateY(-13px);
+
+}
+#footer{
+    background-image: linear-gradient(to right, #a517ba, #5f1782 );
+    color: #fff;
+}
+.img-footer{
+    
+    width: 100%;
+
+}
+.footer-box{
+    padding: 20px;
+
+}
+.footer-box img{
+    margin-bottom: 20px;
+    width: 120px;
+}
+.footer-box .fa{
+    margin-right: 8px;
+    font-size: 25px;
+    height: 40px;
+    width: 40px;
+    text-align: center;
+    padding-top: 7px;
+    border-radius: 2px;
+    background-image: linear-gradient(to right, #a517ba, #5f1782 );
+
+}
+.title{
+    margin-top: 100px;
+}
